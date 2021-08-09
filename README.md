@@ -37,7 +37,7 @@ where A and B are exogenously given parameters of the model.
 
 At time period t, a firm i makes a decision about its production using a binary string of finite length l, written over {0,1}.
 
-## picture
+![](https://github.com/SteveVu2212/Evolutionary-Learning-in-Multi-agent-Economic-Competition/blob/main/images/binary%20string.png)
 
 A decoded and normalized value of a binary string i gives the value of the quantity produced by a firm i at time period t. For a string i of length l the decoding works in the following way:
 
@@ -55,7 +55,7 @@ where K is a coefficient chosen to normalize the value of $x_{i,t}$.
 
 The multi-agent genetic algorithm is described in great detail in Kevin James (2019). Upon initialization, each agent selects a strategy at random to play for the first iteration. Once every agents has submitted a strategy, they can each evolve by using their forgone utility as a fitness function. The forgone utility is calculated by holding all other agents' chosen strategies constant, and replacing their own played strategy with the strategy in the population being evaluated.
 
-### picture
+![](https://github.com/SteveVu2212/Evolutionary-Learning-in-Multi-agent-Economic-Competition/blob/main/images/MAGAs.png)
 
 Economic agents' decision rules are updated using four genetic operators, parent selection, crossover, mutation, and survival selection. Each iteration of the algorithm requires pairs of strategies to be selected. Those are chosen to be parents by combination with replacement.
 
@@ -71,3 +71,5 @@ Converting from a binary string to the quantity requires some computational time
 
 The MAGA results in the quick convergence of the algorithm to rational expectations equilibrium values. All strategies in a population become identical and the beliefs of all agents about how much to produce and offer for sale converge to the same value which is equal to the optimal quantities when the market price is known.
 
+![](https://github.com/SteveVu2212/Evolutionary-Learning-in-Multi-agent-Economic-Competition/blob/main/images/price.png)
+![](https://github.com/SteveVu2212/Evolutionary-Learning-in-Multi-agent-Economic-Competition/blob/main/images/quantity.png)
