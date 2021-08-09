@@ -21,7 +21,7 @@ The Cobweb model represents a competitive market where there are n firms produci
 
 ![](https://github.com/SteveVu2212/Evolutionary-Learning-in-Multi-agent-Economic-Competition/blob/main/images/cost%20calculation.png)
 
-where $C_{i,t}$ is firm i's cost of a production for sale at time t, and $q_{i,t}$ is the quantity it produces for sale at time t.
+where <img src="https://render.githubusercontent.com/render/math?math=$C_{i,t}$> is firm i's cost of a production for sale at time t, and $q_{i,t}$ is the quantity it produces for sale at time t.
 
 The expected profit of an agent, $\Pi^e_{i,t}$, is:
 
