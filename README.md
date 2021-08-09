@@ -21,19 +21,17 @@ The Cobweb model represents a competitive market where there are n firms produci
 
 ![](https://github.com/SteveVu2212/Evolutionary-Learning-in-Multi-agent-Economic-Competition/blob/main/images/cost%20calculation.png)
 
-$C_{i,t} = xq_{i,t} + \frac{1}{2}ynq^2_{i,t}$
-
 where $C_{i,t}$ is firm i's cost of a production for sale at time t, and $q_{i,t}$ is the quantity it produces for sale at time t.
 
 The expected profit of an agent, $\Pi^e_{i,t}$, is:
 
-$\Pi^e_{i,t} = P^e_{t}q_{i,t} - xq_{i,t} - \frac{1}{2}ynq^2_{i,t}$
+![](https://github.com/SteveVu2212/Evolutionary-Learning-in-Multi-agent-Economic-Competition/blob/main/images/profit%20calculation.png)
 
 where $P^e_{t}$ is the expected price of the good at t. Since at time (t-1), the price of the goods at time t, $P_{t}$ is not available, the decision about optimal $q_{i,t}$ must be based on the expectation of $P_{t}$, $P^e_{i,t}$.
 
 The price $P_{t}$ that clears the market at time t is determined by the demand curve:
 
-$P_{t} = A - B\sum_{i=1}^n q_{i,t}$
+![](https://github.com/SteveVu2212/Evolutionary-Learning-in-Multi-agent-Economic-Competition/blob/main/images/market%20price%20calculation.png)
 
 where A and B are exogenously given parameters of the model.
 
@@ -43,13 +41,13 @@ At time period t, a firm i makes a decision about its production using a binary 
 
 A decoded and normalized value of a binary string i gives the value of the quantity produced by a firm i at time period t. For a string i of length l the decoding works in the following way:
 
-$x_{i,t} = \sum_{k=1}^{l} a^k_{i,t}2^{k-1}$
+![](https://github.com/SteveVu2212/Evolutionary-Learning-in-Multi-agent-Economic-Competition/blob/main/images/decoded%20values.png)
 
 where $a^k_{i,t}$ is the value (0,1) taken at the kth position in the string.
 
 The quantity that firm i decides to produce and offer for sale at time period t:
 
-$q_{i,t} = \frac{x_{i,t}}{K}$
+![](https://github.com/SteveVu2212/Evolutionary-Learning-in-Multi-agent-Economic-Competition/blob/main/images/normalized%20values.png)
 
 where K is a coefficient chosen to normalize the value of $x_{i,t}$.
 
