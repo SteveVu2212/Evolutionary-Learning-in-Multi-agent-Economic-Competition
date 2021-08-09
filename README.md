@@ -21,15 +21,15 @@ The Cobweb model represents a competitive market where there are n firms produci
 
 ![](https://github.com/SteveVu2212/Evolutionary-Learning-in-Multi-agent-Economic-Competition/blob/main/images/cost%20calculation.png)
 
-where <img src="https://render.githubusercontent.com/render/math?math=$C_{i,t}$"> is firm i's cost of a production for sale at time t, and $q_{i,t}$ is the quantity it produces for sale at time t.
+where <img src="https://render.githubusercontent.com/render/math?math=$C_{i,t}$"> is firm i's cost of a production for sale at time t, and <img src="https://render.githubusercontent.com/render/math?math=$q_{i,t}$"> is the quantity it produces for sale at time t.
 
-The expected profit of an agent, $\Pi^e_{i,t}$, is:
+The expected profit of an agent, <img src="https://render.githubusercontent.com/render/math?math=$\Pi^e_{i,t}$">, is:
 
 ![](https://github.com/SteveVu2212/Evolutionary-Learning-in-Multi-agent-Economic-Competition/blob/main/images/profit%20calculation.png)
 
-where $P^e_{t}$ is the expected price of the good at t. Since at time (t-1), the price of the goods at time t, $P_{t}$ is not available, the decision about optimal $q_{i,t}$ must be based on the expectation of $P_{t}$, $P^e_{i,t}$.
+where <img src="https://render.githubusercontent.com/render/math?math=$P^e_{t}$"> is the expected price of the good at t. Since at time (t-1), the price of the goods at time t, <img src="https://render.githubusercontent.com/render/math?math=$P_{t}$"> is not available, the decision about optimal <img src="https://render.githubusercontent.com/render/math?math=$q_{i,t}$"> must be based on the expectation of <img src="https://render.githubusercontent.com/render/math?math=$P_{t}$">, <img src="https://render.githubusercontent.com/render/math?math=$P^e_{i,t}$">.
 
-The price $P_{t}$ that clears the market at time t is determined by the demand curve:
+The price <img src="https://render.githubusercontent.com/render/math?math=$P_{t}$"> that clears the market at time t is determined by the demand curve:
 
 ![](https://github.com/SteveVu2212/Evolutionary-Learning-in-Multi-agent-Economic-Competition/blob/main/images/market%20price%20calculation.png)
 
@@ -43,13 +43,13 @@ A decoded and normalized value of a binary string i gives the value of the quant
 
 ![](https://github.com/SteveVu2212/Evolutionary-Learning-in-Multi-agent-Economic-Competition/blob/main/images/decoded%20values.png)
 
-where $a^k_{i,t}$ is the value (0,1) taken at the kth position in the string.
+where <img src="https://render.githubusercontent.com/render/math?math=$a^k_{i,t}$"> is the value (0,1) taken at the kth position in the string.
 
 The quantity that firm i decides to produce and offer for sale at time period t:
 
 ![](https://github.com/SteveVu2212/Evolutionary-Learning-in-Multi-agent-Economic-Competition/blob/main/images/normalized%20values.png)
 
-where K is a coefficient chosen to normalize the value of $x_{i,t}$.
+where K is a coefficient chosen to normalize the value of <img src="https://render.githubusercontent.com/render/math?math=$x_{i,t}$">.
 
 ## 3. The multi-agent genetic algorithm (MAGA)
 
