@@ -19,6 +19,8 @@ In a competitive market, an economic agent have mutually competing ideas/strateg
 
 The Cobweb model represents a competitive market where there are n firms producing the same goods, employing the same technology, and facing the same cost function:
 
+![](https://github.com/SteveVu2212/Evolutionary-Learning-in-Multi-agent-Economic-Competition/blob/main/images/cost%20calculation.png)
+
 $C_{i,t} = xq_{i,t} + \frac{1}{2}ynq^2_{i,t}$
 
 where $C_{i,t}$ is firm i's cost of a production for sale at time t, and $q_{i,t}$ is the quantity it produces for sale at time t.
