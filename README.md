@@ -2,9 +2,9 @@
 
 ## Authors
 
-Genetic algorithm learning and the cobweb model, Jasmina Arifovic (1994)
+Arifovic, J. (1994). Genetic algorithm learning and the cobweb model. Journal of Economic dynamics and Control, 18(1), 3-28.
 
-Estimating Auction Equilibria using Idividual Evolutionary Learning, Kevin James (2019)
+James, K. (2019). Estimating Auction Equilibria using Individual Evolutionary Learning. Chapman University.
 
 Steve Vu
 
